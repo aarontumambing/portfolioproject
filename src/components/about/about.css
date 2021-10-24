@@ -11,6 +11,7 @@
     justify-content: center;
     position: relative;
     height: 100%;
+    margin-right: -70px;
   }
 
   .a-card.bg {
@@ -22,6 +23,7 @@
 
 .a-right {
     flex: 1;
+    height: 90%;
 }
 
 .a-card {
@@ -44,8 +46,21 @@
 
 .a-sub{
     margin: 20px 0px;
+    font-weight: 300;
 }
 
 .a-desc{
     font-weight: 300px;
+    
+}
+
+.a-botR{
+    flex: 1;
+    height: 90%;
+    padding-left: 20px;
+    
+}
+
+.a-sub{
+    font-weight: bold;
 }

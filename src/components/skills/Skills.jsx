@@ -1,6 +1,6 @@
 import "./skills.css"
 
-const Skills = () => {
+const Skills = ({img,link,desc}) => {
     return (
         <div className="s">
             <div className="s-browser">
@@ -8,10 +8,12 @@ const Skills = () => {
                 <div className="s-circle"></div>
                 <div className="s-circle"></div>
             </div>
-
-            <a href="http://google.ca" target="_blank" ></a>
+            <a href={link} target="_blank" rel="noreferrer" ><p>{desc}</p>
+                <img src={img} alt="" className="s-img"/>
+                
+            </a>
         </div>
-    )
-}
+    );
+};
 
 export default Skills
